@@ -26,7 +26,7 @@ sudo apt install python3-pip
    - Run the following command to install the required dependencies:
 ```
 python3 -m venv venv
-source venv/bin/activate
+source ~/venv/bin/activate
 pip install fastapi uvicorn
 ```
 
@@ -35,7 +35,7 @@ pip install fastapi uvicorn
    - After installing the dependencies, stay in the same directory in your terminal or command prompt.
    - Run the following command to start the server:
 ```
-uvicorn app:app --reload
+uvicorn main:app --reload
 ```
    - `app:app` specifies the module and the instance of FastAPI.
    - `--reload` enables auto-reloading so that any changes you make in the code are automatically picked up.
