@@ -37,8 +37,8 @@ pip install fastapi uvicorn
 ```
 uvicorn app:app --reload
 ```
-     - `app:app` specifies the module and the instance of FastAPI.
-     - `--reload` enables auto-reloading so that any changes you make in the code are automatically picked up.
+   - `app:app` specifies the module and the instance of FastAPI.
+   - `--reload` enables auto-reloading so that any changes you make in the code are automatically picked up.
 
 2. **Accessing the Endpoints:**
    - Once the server starts successfully, you can access the endpoints using a web browser, curl, or any HTTP client.
@@ -47,7 +47,7 @@ uvicorn app:app --reload
 ```
 curl http://localhost:8000/factorial/5
 ```
-     - Client IP and Time: Open your web browser and navigate to `http://localhost:8000/whoami`. Or open terminal and run following command:
+   - Client IP and Time: Open your web browser and navigate to `http://localhost:8000/whoami`. Or open terminal and run following command:
 ```
 curl http://localhost:8000/whoami
 ```
