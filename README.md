@@ -7,7 +7,7 @@ This project is a FastAPI web service designed to calculate factorials of number
 1. **Clone the Repository:**
    Clone or download this repository to your local machine.
 ```
-   git clone https://github.com/sarbaz14/Ferst-FastAPI.git
+   git clone https://github.com/sarbaz14/SimpleAPI.git
 ```
 
 2. **Install Dependencies:**
@@ -15,7 +15,7 @@ This project is a FastAPI web service designed to calculate factorials of number
    - Open a terminal or command prompt.
    - Navigate to the directory where the code is located.
 ```
-   cd First-FastAPI
+   cd SimpleAPI
 ```
    
    - Run the following command to install pip
